@@ -115,7 +115,9 @@
     <p>Continued content...</p>
     <a href="https://www.smashingmagazine.com/2013/01/the-importance-of-sections/#the-problem-with-div">Link the the
         document.</a>
+    <br>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">HTML attribute reference: Attribute list</a>
+    <br>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML elements reference
     </a>
     <br>
@@ -135,7 +137,8 @@
             <h1>Section title</h1>
         </div>
     </section>
-    <br><br>
+    <br>
+    <br>
     <p>The below code is an example of how to create a decription list. </p>
     <dl>
         <dt>HTML</dt>
@@ -156,6 +159,170 @@
         <dt>Scissors</dt>
         <dd>Scissors cut paper.</dd>
     </dl>
+    <br>
+    <br>
+    <p>The below code are examples of creating forms to include the submit button</p>
+    <form>
+        <label for="fname">Enter your first name: </label>
+        <br>
+        <input type="text" name="first" value="" placeholder="Put your first name here..." id="fname">
+        <br>
+        <label for="lname">Enter your last name: </label>
+        <input type="text" name="last" value="" placeholder="Put your last name here..." id="lname" spellcheck="true">
+        <br>
+        <input type="submit" value="Submit if Leo is cool!">
+        <br>
+        <button type="submit">Submit if Leo is cool!</button>
+    </form>
+    <br>
+    <p>
+        <h3>There are many form input types.</h3>
+    </p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">List of form input types</a>
+    <form>
+        <p>
+            <h4>
+                Button code below
+            </h4>
+        </p>
+        <input type="button" name="What!!" value="Don't press my buttons" placeholder="Don't press my buttons">
+        <p>
+            <h4>
+                Date input code below but more code is needed to get it to work properly.
+            </h4>
+        </p>
+        <label>
+            Enter the date in the form of mm/dd/yyyy
+            <input type="date" name="Date input" value="" placeholder="mm/dd/yyyy">
+        </label>
+        <p>
+            <h4>
+                Email field code below. Additional code is needed for data validation.
+            </h4>
+        </p>
+        <input type="email" name="Email_input" value="" placeholder="example@me.com">
+        <p>
+            <h4>
+                Select file code below.
+            </h4>
+        </p>
+        <input type="file" name="File">
+        <p>
+            <h4>
+                Picture select file code below. I am commenting out this code as in need additional work.
+            </h4>
+        </p>
+        <!--<input type="image">-->
+        <p>
+            <h4>
+                Number box code below.
+            </h4>
+        </p>
+        <label>
+            Enter your 4 digit PIN
+            <input type="number" name="numbers" value="" placeholder="4 Digit Leo PIN">
+        </label>
+        <p>
+            <h4>
+                Password box code below.
+            </h4>
+        </p>
+        <label for="gotcha">Enter your password</label>
+        <input id="gotcha" type="password" name="password" value="" placeholder="Give me all you passwords">
+        <p>
+            <h4>
+                radio button code below.
+            </h4>
+        </p>
+        <input type="radio" name="radio"> This button is differ than the other three.
+        <br>
+        <input type="radio" name="rappers" value="Biggie"> Biggie
+        <br>
+        <input type="radio" name="rappers" value="Dre"> Dre
+        <br>
+        <input type="radio" name="rappers" value="Snoop" checked> Snoop
+        <br>
+        <p>
+            <h4>
+                Checkbox code below.
+            </h4>
+        </p>
+        <input type="checkbox" name="rapper1" value="Ice Cube"> Ice Cube
+        <input type="checkbox" name="rapper2" value="Kanye" checked> Kanye
+        <input type="checkbox" name="rapper3" value="Eminem"> Eminem
+        <p>
+            <h4>
+                Checkbox using the "select" method.
+            </h4>
+        </p>
+        <!-- The second option will be initially selected. -->
+        <select name="vh1_show">
+            <option value="basketball_wives_la">Basketball Wives LA</option>
+            <option value="get_rich_or_die_tryin" selected>Get Rich or Die Tryin'</option>
+            <option value="black_ink_crew">Black Ink Crew</option>
+        </select>
+        <p>
+            <h4>
+                Checkbox using the "select" method allowing mutiple select.
+            </h4>
+        </p>
+        <!-- The second and third option will be initially selected. -->
+        <select name="vh1_show" multiple>
+            <option value="the_jame_foxx_show">The Jamie Foxx Show</option>
+            <option value="fresh_prince_of_bel_air" selected>Fresh Prince of Bel-Air</option>
+            <option value="love_and_hip_hop_atlanta">Love and Hip Hop Atlanta</option>
+        </select>
+        <p>
+            <h4>
+                Example code for using lables with boxes.
+            </h4>
+        </p>
+        <label>
+            Album
+            <input type="text" name="Album">
+        </label>
+        <br>
+        <p>
+            <h4>
+                Telephone number box code below.
+            </h4>
+        </p>
+        <label for="phone-number">Enter you area code and phone number:</label>
+        <input type="tel" name="telephone-numbers" value="" placeholder="555-555-5555" id="phone-number">
+    </form>
+    <br>
+    <br>
+    <p>Google search engine web form code below.</p>
+    <form>
+        <input type="text">
+        <div>
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </form>
+    <br>
+    <p>
+        <h4>
+            More about buttons and diffrent types of buttons.
+        </h4>
+    </p>
+    <p>
+        <h4>
+            Below is code for a basic button.
+        </h4>
+    </p>
+    <button name="button">Belly</button>
+    <p>
+        <h4>
+            Below are diffent types of buttons: "button (default)", "submit (default when in a form)" and "reset" in
+            that order.
+        </h4>
+    </p>
+    <form>
+        <button type="button">This an anonymous button</button>
+        <button type="submit">This a submit button</button>
+        <button type="reset">This a reset button</button>
+    </form>
 </body>
 
 </html>
